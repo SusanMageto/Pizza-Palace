@@ -2,10 +2,14 @@ body {
   background-image: url(./images/backgroundpiz2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(red, green, blue, 0.3);
+  background-color: rgba(0, 0, 0, 0.9);
+  background-color: red;
 }
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+#card-1, #card-2, #card-3 {
+  background-color: greenyellow;
+} 
