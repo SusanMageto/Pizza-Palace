@@ -4,3 +4,8 @@ body {
   background-size: cover;
   background-color: rgba(red, green, blue, 0.3);
 }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
