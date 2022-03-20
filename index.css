@@ -1,5 +1,5 @@
 body {
-  background-image: url(./images/backgroundpiz2.jpg);
+  background-image: url(./images/pizzabg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.9);
@@ -10,6 +10,9 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
 }
-#card-1, #card-2, #card-3 {
-  background-color: greenyellow;
-} 
+.row img{
+  width: 400px;
+  height: 100px;
+  margin-top: 50px;
+  background-color: transparent;
+}
