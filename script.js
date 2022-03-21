@@ -18,8 +18,13 @@ $(function () {
       this.crust = crust;
     }
     $('#delivery').click(function() {
-      var finalPrice = total + 150
-      $("#finalprice").text("Your final price plus delivery is: Ksh "+ finalPrice)
+      var delivery = 200
+      $("#delivery1").text("The delivery fee is Ksh.200.")
+      console.log("hello");
+    });
+    $('#checkout').click(function() {
+      var finalPrice = total + 200
+      $("#finalprice").text("The delivery fee is Ksh.200. Your final price plus delivery is: Ksh "+ finalPrice)
       console.log("hello");
     });
   })
