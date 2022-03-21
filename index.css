@@ -25,3 +25,22 @@ body {
   justify-content: center;
   margin-bottom: 50px;
 }
+.order {
+  color: white;
+}
+.table th {
+  color: white;
+}
+.btn {
+  color: white;
+}
+.summary {
+  width: 600px;
+  height: 200px;
+}
+.summary h2 {
+  color: white;
+}
+#addedprice {
+  color: white;
+}

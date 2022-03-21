@@ -38,7 +38,7 @@
     <h3>How many pizzas?</h3>
     <input type="text" placeholder="Quantity">
   </div>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card h-100">
         <img src="./images/pizza.png" class="card-img-top" alt="size">
@@ -97,10 +97,37 @@
       </div>
     </div>
   </div>
-  <input type="button" onclick="myFunction()" value="Add to cart">
+  <button type="submit" class="btn btn-green">Submit</button>
 
-
-
+  <div class="summary">
+    <h2>This is your order:</h2>
+    <div id="your-orders">
+      <table class="table table-sm  pizzatable">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Size</th>
+            <th scope="col">Crust</th>
+            <th scope="col">Topping</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody id="ordersmade">
+          <tr>
+            <td id="pizzaname"></td>
+            <td id="pizzasize"></td>
+            <td id="pizzacrust"></td>
+            <td id="pizzatopping"></td>
+            <td id="totals"></td>
+          </tr>
+        </tbody>
+      </table>
+      <p id="pizzatotal"></p>
+      <p id="totalbill"></p>
+      <p id="addedprice">Delivery will cost sh. 150</p>
+      <p id="finallmessage"></p>
+    </div>
+  </div>
 
 
 
