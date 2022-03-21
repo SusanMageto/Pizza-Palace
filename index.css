@@ -35,12 +35,26 @@ body {
   color: white;
 }
 .summary {
-  width: 600px;
-  height: 200px;
+ 
+  display: flex;  
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;      
 }
 .summary h2 {
   color: white;
 }
 #addedprice {
   color: white;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  height: 200px;
+}
+.col2 {
+  width: 1000px;
 }
