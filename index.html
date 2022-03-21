@@ -96,8 +96,10 @@
         </div>
       </div>
     </div>
+    <div class="submit-btn">
+      <button type="submit" class="btn btn-warning" id="submit">Submit</button>
+    </div>
   </div>
-  <button type="submit" class="btn btn-green">Submit</button>
 
   <div class="summary">
     <h2>This is your order:</h2>
@@ -105,10 +107,10 @@
       <table class="table  pizzatable">
         <thead>
           <tr>
-            <th class= "col2" scope="col">Size</th>
-            <th class= "col2" scope="col">Crust</th>
-            <th class= "col2" scope="col">Topping(s)</th>
-            <th class= "col2" scope="col">Total</th>
+            <th class="col2" scope="col">Size</th>
+            <th class="col2" scope="col">Crust</th>
+            <th class="col2" scope="col">Topping(s)</th>
+            <th class="col2" scope="col">Total</th>
           </tr>
         </thead>
         <tbody id="ordersmade">
@@ -122,9 +124,12 @@
       </table>
       <p id="pizzatotal"></p>
       <p id="totalbill"></p>
-      <p id="addedprice">Delivery will cost sh. 150</p>
+      <p id="addedprice">Your delivery fee is sh. 150</p>
       <p id="finallmessage"></p>
     </div>
+    <button class="btn btn-warning addPizza">Add another Pizza</button> <br><br>
+    <button class="btn btn-warning" id="checkout">Checkout</button> <br><br>
+    <button class="btn btn-warning deliver">Delivery?</button>
   </div>
 
 

@@ -6,4 +6,10 @@ function Getpizza(size,crust,topping, total ){
   this.toppings = this.toppings;
   this.total = total;
 }
-$(document).ready(function(){
+// submit button
+$(document).ready(function() {
+   let psize = $("#size option:selected").val();
+   let pcrust = $("#crust option:selected").val();
+   let ptopping =$("#toppings option:selected").val();
+   
+}

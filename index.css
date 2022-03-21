@@ -33,6 +33,13 @@ body {
 }
 .btn {
   color: white;
+  border-style: solid;
+  border-color: white;
+  align-self: center;
+}
+.submit {
+  display: flex;
+  justify-content: center;
 }
 .summary {
  
@@ -57,4 +64,9 @@ body {
 }
 .col2 {
   width: 1000px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
