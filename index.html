@@ -49,10 +49,10 @@
           <form>
             <h2>Choose your pizza size</h2>
             <select name="size" id="size">
-              <option value="toppings">Size</option>
-              <option value="pineapple">Small</option>
-              <option value="Chicken">Medium</option>
-              <option value="Beef">Large</option>
+              <option value="#">Size</option>
+              <option value="600">Small</option>
+              <option value="900">Medium</option>
+              <option value="1200">Large</option>
             </select>
           </form>
         </div>
@@ -69,9 +69,9 @@
             <h2>Choose your crust</h2>
             <select name="crust" id="crust">
               <option value="crust">Crust</option>
-              <option value="crispy">Crispy</option>
-              <option value="stuffed">Stuffed</option>
-              <option value="gluten-free">Gluten free</option>
+              <option value="200">Crispy</option>
+              <option value="300">Stuffed</option>
+              <option value="500">Gluten free</option>
             </select>
           </form>
         </div>
@@ -88,9 +88,9 @@
             <h2>Choose your toppings (each is Ksh.200)</h2>
             <select name="toppings" id="toppings">
               <option value="toppings">Toppings</option>
-              <option value="pineapple">pineapple</option>
-              <option value="Chicken">Chicken</option>
-              <option value="Beef">Beef</option>
+              <option value="200">pineapple</option>
+              <option value="200">Chicken</option>
+              <option value="200">Beef</option>
             </select>
           </form>
         </div>
@@ -99,6 +99,7 @@
     <div class="submit-btn">
       <button type="submit" class="btn btn-warning" id="submit">Submit</button>
     </div>
+    <p id="totalprice" class="fs-2 text-light"></p>
   </div>
 
   <div class="summary">
@@ -107,6 +108,7 @@
       <table class="table  pizzatable">
         <thead>
           <tr>
+            <th class="col2" scope="col">Quantity</th>
             <th class="col2" scope="col">Size</th>
             <th class="col2" scope="col">Crust</th>
             <th class="col2" scope="col">Topping(s)</th>

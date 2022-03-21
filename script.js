@@ -1,15 +1,26 @@
-var price , crust_price, topping_price ;
-let total = 0;
-function Getpizza(size,crust,topping, total ){
-  this.size = size;
-  this.crust = crust;
-  this.toppings = this.toppings;
-  this.total = total;
-}
-// submit button
-$(document).ready(function() {
-   let psize = $("#size option:selected").val();
-   let pcrust = $("#crust option:selected").val();
-   let ptopping =$("#toppings option:selected").val();
-   
-}
+$(function () {
+  $('#submit').click(function() {
+    var size= $("#size option:selected").val();
+    var toppings = $("#toppings option:selected").val();
+    var crust= $("#crust option:selected").val();
+    var total = parseInt(size) + parseInt(toppings) + parseInt(crust);
+    var order = 1;
+    var grandTotal = 0;
+    console.log(total);
+    $("#totalprice").text("Your total price is: Ksh "+ total)
+
+    $("#size").html($(".size option:selected").text() + " - " + size);
+    $("#toppings").html($(".toppings option:selected").text() + " - " + toppings);
+    $("#crust").html($(".crust option:selected").text() + " - " + crust);
+    $("#total").html(total);
+
+    function Pizza(size, toppings, crust, total, orderNo) {
+      this.size = size;
+      this.toppings = toppings;
+      this.crust = crust;
+      this.total = total;
+      this.orderNo = orderNo;
+    }
+  })
+
+});
