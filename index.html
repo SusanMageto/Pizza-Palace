@@ -34,10 +34,7 @@
     </div>
   </nav>
   <br> <br> <br> <br>
-  <div class="quantity" id="quantity">
-    <h3>How many pizzas?</h3>
-    <input type="text" placeholder="Quantity">
-  </div>
+
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card h-100">
@@ -100,11 +97,15 @@
       <button type="submit" class="btn btn-warning" id="submit">Submit</button>
     </div>
     <p id="totalprice" class="fs-2 text-light"></p>
-    <p id="finalprice" class="fs-2 text-light"></p>
+  </div class="final">
+  <div class="delivery">
+    <button id="delivery" class="btn btn-warning deliver">Delivery?</button>
     <p id="delivery1" class="fs-2 text-light"></p>
   </div>
-    <button id="delivery"  class="btn btn-warning deliver">Delivery?</button>
-    <button id="checkout"  class="btn btn-warning checkout">Checkout</button>
+  <div class="checkout">
+    <button id="checkout" class="btn btn-warning checkout">Checkout</button>
+    <p id="finalprice" class="fs-2 text-light"></p>
+  </div>
   </div>
 
 

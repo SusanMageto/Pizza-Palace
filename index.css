@@ -3,7 +3,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.9);
-  background-color: red;
 }
 .navbar {
   display: flex;
@@ -16,57 +15,20 @@ body {
   margin-top: 50px;
   background-color: transparent;
 }
-.quantity h3 {
-  color: white;
-}
-.quantity {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-.order {
-  color: white;
-}
-.table th {
-  color: white;
-}
+
 .btn {
   color: white;
   border-style: solid;
   border-color: white;
   align-self: center;
 }
-.submit {
-  display: flex;
-  justify-content: center;
-}
-.summary {
- 
-  display: flex;  
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  text-align: center;      
-}
-.summary h2 {
-  color: white;
-}
-#addedprice {
-  color: white;
-}
-.table {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 1000px;
-  height: 200px;
-}
-.col2 {
-  width: 1000px;
-}
 .row {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.final {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
