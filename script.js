@@ -28,7 +28,4 @@ $(function () {
       console.log("hello");
     });
   })
-  
-  
-
 });

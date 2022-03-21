@@ -30,5 +30,16 @@ body {
 .final {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+}
+.del {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.checkout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
